@@ -15,8 +15,8 @@
 
 <body class="bg-dark">
     <!-- Entire Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <a href="#" class="navbar-brand">SongiFind</a>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mt-3">
+        <a href="#" class="ml-3 navbar-brand">SongiFind</a>
 
         <!-- Navbar option button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -47,28 +47,80 @@
         </div>
     </nav>
 
+    <hr class="style="height:5px;border:none;color:grey;background-color:rgba(25, 98, 233, 0.431);" />
     <!-- TITLE NAME -->
     <h1 class="pl-5 pr-5 mb-5 ml-3 bg-primary d-inline rounded " style="font-size:10vw">SongiFind</h1>
 
-    <div class="mt-3 mb-3 d-block bg-danger text-white">Search for the music you want, by song or by the artist.
-    </div>
-    
-    
+    <div class="mt-3 mb-3 pl-3 d-block bg-info text-white">Search for the music you want, by song or by the artist.</div>
     
     <!-- TITLE NAME outer circle -->
     <div class="mb-3 bg-primary rounded-circle" style="width: 375px; height: 150px;">
 
     <!-- TITLE NAME inner circle -->
-    <div class="row">
-        <div class="col-4 ml-3">
+        <div class="row">
+            <div class="col-4 ml-3">
                 <div class="pl-5 pt-4 mb-3 mt-2 ml-3 shadow-lg bg-primary rounded-circle text-body" style="width: 300px; height: 130px;">
-                    <h1 class="title pt-2">Artist name</h1>
+                    <h1 class="title pt-2">Trending...</h1>
                 </div>
             </div>
         </div>
     </div>
+    
+    <!-- CARDS to hold SONG CATEGORIES -->
+    <div class="row mb-5 ml-1 mr-1 mt-3">
+        <div class="col-4">
+            <div class="card-group">
+                <div class="card">
+                    <a href="https://open.spotify.com/album/19XhhBi6GNTYYgSrB3hnzA">
+                        <img class="card-img-top" src="images/Avicii.jpg" style="width: 493px;" alt="Song button">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Different category of songs.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="p-5 mb-3 bg-primary rounded-circle text-body" style="width: 200px; height: 200px;">round</div>
+        <div class="col-4">
+            <div class="card-group">
+                <div class="card">
+                    <a href="https://open.spotify.com/album/7dAm8ShwJLFm9SaJ6Yc58O">
+                        <img class="card-img-top" src="images/dielit.jpeg" style="width: 493px;" alt="Song button">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Die Lit - Playboi Carti</h5>
+                        <p class="card-text">Hip-hop/Rap</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card-group">
+                <div class="card">
+                    <a href="https://open.spotify.com/album/0qr1Fvi1haEDWVbFtekZLb">
+                    <img class="card-img-top" src="images/Cozy.jpg" style="width: 493px;" alt="Song button">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Cozy Tapes Vol. 2 - A$AP Mob</h5>
+                        <p class="card-text">Hip-hop/Rap</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="p-5 mb-3 bg-primary rounded-circle text-body" style="width: 200px; height: 200px;">round</div> -->
 
 
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
